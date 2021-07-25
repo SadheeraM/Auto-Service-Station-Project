@@ -41,7 +41,7 @@ public class SendSMSController {
     		//String msg = "OTEK+Auto+Service+Station";
     		msg1 = "OTEK+Auto+Service+Station\\nDear"+"__"+customerName+",\\nYour+booking+is+confirmed!\\nPlease+come+at__"+time+"__"+"on"+"__"+date+"";
    		 
-    		URL textit = new URL("http://textit.biz/sendmsg/index.php?id=94767921027&pw=4854&to="+contactNo+"&text="+msg+"");
+    		URL textit = new URL("http://textit.biz/sendmsg/index.php?id=&pw=&to="+contactNo+"&text="+msg+"");
     		BufferedReader in = new BufferedReader(
     		new InputStreamReader(textit.openStream()));
     		 
