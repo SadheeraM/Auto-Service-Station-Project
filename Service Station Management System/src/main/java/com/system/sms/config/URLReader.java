@@ -9,7 +9,7 @@ import java.io.*;
 			
 		String msg = "OTEK+Auto+Service+Station\\nAll+types+of+vehicle+maintenance+services+in+one+place.";	
 		 
-		URL textit = new URL("http://textit.biz/sendmsg/index.php?id=94767921027&pw=4854&to=0767921027&text="+msg+"");
+		URL textit = new URL("http://textit.biz/sendmsg/index.php?id=&pw=&to=&text="+msg+"");
 		BufferedReader in = new BufferedReader(
 		new InputStreamReader(textit.openStream()));
 		 
