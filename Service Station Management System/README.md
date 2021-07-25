@@ -1,4 +1,4 @@
-Sample Spring Boot Web Application with JSP
+Auto Service Station Management system 
 ====
 
 Building and running
